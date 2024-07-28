@@ -25,7 +25,7 @@ while len(arr) < 100:
         "Longitude":longitude,
         "Time_Stamp":timestamp
         })
-#using time function to reduce the 'send request' time from user. Continuous requests of API might end uo crashing. 
+#using time function to reduce the 'send request' time from user. Continuous requests of API might end up crashing. 
 time.sleep(1)
 
 df = pd.DataFrame(arr)
